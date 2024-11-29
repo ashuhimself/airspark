@@ -1,4 +1,5 @@
 FROM quay.io/astronomer/astro-runtime:12.4.0
+CMD ["webserver", "-h", "0.0.0.0"]
 
 USER root
 
